@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>773</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_ingresar">
+    <property name="geometry">
+     <rect>
+      <x>-6</x>
+      <y>9</y>
+      <width>801</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Ingresar</string>
+    </property>
+    <widget class="QPlainTextEdit" name="plainTextEdit_Ingresar_ca">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>31</y>
+       <width>761</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="plainText">
+      <string>Ingresa la cadena a guardar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_guardar">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>267</y>
+       <width>371</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Guardar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_imprimir">
+     <property name="geometry">
+      <rect>
+       <x>394</x>
+       <y>267</y>
+       <width>381</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Imprimir</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>12</x>
+       <y>297</y>
+       <width>761</width>
+       <height>231</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>-2</x>
+       <y>0</y>
+       <width>781</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../../../Users/jorge/Pictures/Saved Pictures/559128.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <zorder>label</zorder>
+    <zorder>plainTextEdit_Ingresar_ca</zorder>
+    <zorder>pushButton_guardar</zorder>
+    <zorder>pushButton_imprimir</zorder>
+    <zorder>tableWidget</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>773</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
